@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    FileProvider path mappings. These declare which parts of the filesystem this app may
+    expose to other apps as content:// URIs when opening files.
+
+    - external-path covers the primary shared storage (/storage/emulated/0/...), which is
+      where the File Manager browses by default.
+    - root-path covers the rest of the filesystem (e.g. removable USB/SD volumes under
+      /storage/XXXX-XXXX) so files opened from those locations work too. This app already
+      holds all-files access, so exposing these paths for user-initiated "open" is
+      consistent with its purpose.
+-->
+<paths>
+    <external-path name="external_storage" path="." />
+    <root-path name="root" path="/" />
+</paths>

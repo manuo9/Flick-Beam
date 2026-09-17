@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Placeholder TV banner (required size: 320x180 dp).
+    The Android TV launcher uses this image as the app's tile — without it,
+    the app cannot be launched from the TV home screen at all.
+    Replace this with a real designed banner (PNG, 320x180 px) before shipping.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#4F9DFF" />
+</shape>

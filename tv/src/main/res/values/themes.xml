@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        This is a pure Jetpack Compose app, so the actual look & feel (colors, typography)
+        is defined in Kotlin code under ui/theme/Theme.kt, not here.
+        This XML theme only needs to set up the window background before Compose takes over,
+        which avoids a white flash on launch. We use a built-in Android theme as the parent
+        so we don't need the AppCompat/Material Components library as a dependency.
+    -->
+    <style name="Theme.FlickBeam" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/tv_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
