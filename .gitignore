@@ -1,16 +1,30 @@
+# Android Studio and local SDK settings
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
 local.properties
-/tv/build
-/phone/build
-/shared/build
-.kotlin
+/captures/
+
+# Build outputs and caches in every module
+.gradle/
+.kotlin/
+build/
+.externalNativeBuild/
+.cxx/
+
+# Generated app packages and release output
 *.apk
 *.aab
+/tv/release/
+/phone/release/
+
+# Private signing credentials
+*.jks
+*.keystore
+keystore.properties
+key.properties
+signing.properties
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
